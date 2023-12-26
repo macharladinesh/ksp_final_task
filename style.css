@@ -1,0 +1,117 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'poppins', sans-serif;
+   box-sizing: border-box;
+
+
+}
+.container{
+    height: 100vh;
+    width: 100;
+   
+    background-image: url('./desertrajasthan.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+padding-left: 8%;
+padding-right: 8%;
+box-sizing: border-box;
+    
+
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+
+
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 13px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: rgb(241, 10, 10);
+    font-size: 50px;
+    line-height: 100px;
+}
+p{
+    color: #fff;
+}
+button{
+    width: 180px;
+    color: blue;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background: url(desertrajasthan.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(western\ desert.jpg);
+}
+.card2{
+    background-image: url(Bagawat.jpg);
+}
+.card3{
+    background-image: url(All_Gizah_Pyramids.jpg);
+}
+.card4{
+    background-image: url(istockphoto-155429081-612x612.jpg);
+}
+.card:hover{
+    transform: translatey(-10px);
+}
+h5{
+    color:#fff;
+    text-shadow: 0 0 5px #999;
+
+}
+.card p{
+text-shadow: 0 0 5px #000;
+font-size: 8px;
+}
